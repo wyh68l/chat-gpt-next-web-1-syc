@@ -496,10 +496,13 @@ export function Home() {
         className={styles.sidebar + ` ${showSideBar && styles["sidebar-show"]}`}
       >
         <div className={styles["sidebar-header"]}>
-          <div className={styles["sidebar-title"]}>ChatGPT Next</div>
+          <div className={styles["sidebar-title"]}>简桔ChatGPT</div>
           <div className={styles["sidebar-sub-title"]}>
-            Build your own AI assistant.
+            欢迎关注我公众号“简桔”
           </div>
+            <div className={styles["sidebar-sub-title"]}>
+                公众号提供免费的密钥可供体验聊天~
+            </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
           </div>
@@ -538,7 +541,7 @@ export function Home() {
             </div>
             <div className={styles["sidebar-action"]}>
               <a href={REPO_URL} target="_blank">
-                <IconButton icon={<GithubIcon />} />
+                {/*<IconButton icon={<GithubIcon />} />*/}
               </a>
             </div>
           </div>
