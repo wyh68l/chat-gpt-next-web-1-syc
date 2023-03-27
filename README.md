@@ -129,18 +129,12 @@ Please ask ChatGPT with prompt:
 how to deploy nextjs project with pm2 and yarn on my ubuntu server, the build command is `yarn build`, the start command is `yarn start`, the project must start with env var named `OPENAI_API_KEY`, the port is 3000, use ngnix
 ```
 
-### Docker Deployment
+### 容器部署 Docker Deployment
 
-请直接询问 ChatGPT，使用下列 Prompt：
+```shell
+docker pull yidadaa/chatgpt-next-web
 
-```
-如何使用 docker 部署 nextjs 项目到 ubuntu 服务器上，项目编译命令为 yarn build，启动命令为 yarn start，启动时需要设置环境变量为 OPENAI_API_KEY，端口为 3000，使用 ngnix 做反向代理
-```
-
-Please ask ChatGPT with prompt:
-
-```
-how to deploy nextjs project with docker on my ubuntu server, the build command is `yarn build`, the start command is `yarn start`, the project must start with env var named `OPENAI_API_KEY`, the port is 3000, use ngnix
+docker run -d -p 3000:3000 -e OPEN_API_KEY="" -e CODE="" aprilnea/chatgpt-next-web
 ```
 
 ## 截图 Screenshots
@@ -167,7 +161,10 @@ If you would like to contribute your API key, you can email it to the author and
 [@ClarenceDan](https://github.com/ClarenceDan)
 
 ### 贡献者 Contributor
+
 [@AprilNEA](https://github.com/AprilNEA)
+[@iSource](https://github.com/iSource)
+[@iFwu](https://github.com/iFwu)
 
 ## LICENSE
 
