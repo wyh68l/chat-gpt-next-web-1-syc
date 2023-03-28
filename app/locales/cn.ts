@@ -95,8 +95,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "有什么可以帮你的吗?",
+    Error: "出错了，请关注‘简桔’公众号回复‘chat’获取密钥,在设置栏填写~",
     Prompt: {
       History: (content: string) =>
         "这是 ai 和用户的历史聊天总结作为前情提要：" + content,

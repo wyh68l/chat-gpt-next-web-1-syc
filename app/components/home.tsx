@@ -264,6 +264,7 @@ export function Chat(props: { showSideBar?: () => void }) {
           <div className={styles["window-header-sub-title"]}>
             {Locale.Chat.SubTitle(session.messages.length)}
           </div>
+            <div className={styles["window-header-sub-tip"]}>(如不能聊天，请关注‘简桔’公众号回复‘chat’获取密钥)</div>
         </div>
         <div className={styles["window-actions"]}>
           <div className={styles["window-action-button"] + " " + styles.mobile}>
