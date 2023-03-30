@@ -3,7 +3,7 @@ import { SubmitKey } from "../store/app";
 const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
-    Unauthorized: "现在是未授权状态，请在设置页填写授权码。",
+    Unauthorized: "请关注‘简桔’公众号回复‘chat’获取密钥,在设置栏填写~",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
